@@ -213,7 +213,49 @@ class _ProfilePageState extends State<ProfilePage> {
                   ),
                 ),
               ],
-            )
+            ),
+
+            SizedBox(height: 20),
+
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                  Image.network(
+                  'https://i.imgur.com/eG7HcrI.jpeg',
+                  width: 120,
+                ),
+                Image.network(
+                  'https://i.imgur.com/4XDKcmN.jpeg',
+                  width: 120,
+                ),
+                 Image.network(
+                  'https://i.imgur.com/QUm8f9w.jpeg',
+                  width: 120,
+                ),
+              ],
+            ),
+
+            SizedBox(height: 5),
+
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                  Image.network(
+                  'https://i.imgur.com/7fhPbXp.jpeg',
+                  width: 120,
+                ),
+                Image.network(
+                  'https://i.imgur.com/3kc176R.jpeg',
+                  width: 120,
+                ),
+                 Image.network(
+                  'https://i.imgur.com/i9reUWq.jpeg',
+                  width: 120,
+                ),
+              ],
+            ),
+
+
           ],
         ),
       ),
